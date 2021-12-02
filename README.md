@@ -1,1 +1,1 @@
-"# backtracking - each file has informative docoument" 
+"# backtracking - each file has informative document" 
