@@ -13,8 +13,6 @@ int hasClique(int friends[][N], int k) {
 
 bool validColor(int node_index, int color_index, int graph[][N], int *colors) {
     for (int i = 0; i < N; i++) {
-        int temp = graph[node_index][i];
-        int temp2 = colors[i];
         if (graph[node_index][i] == CONNECTED && colors[i] == color_index) {
             return false;
         }
